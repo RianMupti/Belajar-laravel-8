@@ -22,6 +22,11 @@ public function run()
             'name' => 'Web Programming',
             'slug' => 'web-programming'
         ]);
+
+        Category::create([
+            'name' => 'Web Design',
+            'slug' => 'web-design'
+        ]);
         
         Category::create([
             'name' => 'Personal',
