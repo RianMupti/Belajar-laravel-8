@@ -12,6 +12,16 @@
     
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
+
+    {{-- trix editor --}}
+    <link rel="stylesheet" type="text/css" href="/css/trix.css">
+
+    {{-- menghilangkan tampilan upload file di trix toolbar --}}
+    <style>
+      trix-toolbar [data-trix-button-group="file-tools"] {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     
@@ -39,5 +49,8 @@
     crossorigin="anonymous"></script>
 
       <script src="/js/dashboard.js"></script>
+
+      {{-- trix editor --}}
+      <script type="text/javascript" src="/js/trix.js"></script>
   </body>
 </html>

@@ -8,6 +8,9 @@
     </div>
 
     <div class="table-responsive col-lg-9">
+
+      <a href="/dashboard/posts/create" class="btn btn-primary mb-3">Create New post</a>
+
         <table class="table table-striped table-sm">
           <thead>
             <tr>
