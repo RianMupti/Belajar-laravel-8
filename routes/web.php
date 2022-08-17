@@ -76,6 +76,7 @@ Route::middleware(['auth'])->group(function () {
         return view('dashboard.index');
     });
     
+    Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug']);
     Route::resource('/dashboard/posts', DashboardPostController::class);
     
 });
